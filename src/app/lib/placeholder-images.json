@@ -1,0 +1,35 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-blood",
+      "description": "Blood donation hero banner",
+      "imageUrl": "https://picsum.photos/seed/life1/1200/600",
+      "imageHint": "blood donation"
+    },
+    {
+      "id": "donor-profile",
+      "description": "Donor profile illustration",
+      "imageUrl": "https://picsum.photos/seed/donor1/400/400",
+      "imageHint": "medical avatar"
+    },
+    {
+      "id": "hospital-building",
+      "description": "Modern hospital illustration",
+      "imageUrl": "https://picsum.photos/seed/hosp1/600/400",
+      "imageHint": "modern hospital"
+    },
+    {
+      "id": "blood-bag",
+      "description": "Blood unit storage",
+      "imageUrl": "https://picsum.photos/seed/bag1/600/400",
+      "imageHint": "blood bag"
+    },
+    {
+      "id": "lab-results",
+      "description": "Lab testing blood samples",
+      "imageUrl": "https://picsum.photos/seed/lab1/600/400",
+      "imageHint": "medical laboratory"
+    }
+  ]
+}
