@@ -1,4 +1,3 @@
-
 export type BloodType = 'A+' | 'A-' | 'B+' | 'B-' | 'AB+' | 'AB-' | 'O+' | 'O-';
 
 export interface User {
@@ -37,9 +36,11 @@ export const MOCK_INVENTORY: BloodStock[] = [
 export const MOCK_DONATIONS = [
   { id: 'don1', donorId: 'u2', date: '2024-01-15', units: 1, location: 'Central Blood Bank', status: 'completed' },
   { id: 'don2', donorId: 'u2', date: '2024-04-10', units: 1, location: 'City Drive', status: 'completed' },
+  { id: 'don3', donorId: 'u2', date: '2024-07-05', units: 1, location: 'Memorial Hospital', status: 'upcoming' },
 ];
 
 export const MOCK_REQUESTS = [
   { id: 'req1', hospitalId: 'u3', type: 'O-', urgency: 'emergency', units: 3, date: '2024-05-23', status: 'pending' },
   { id: 'req2', hospitalId: 'u3', type: 'A+', urgency: 'standard', units: 2, date: '2024-05-22', status: 'approved' },
+  { id: 'req3', hospitalId: 'u3', type: 'B-', urgency: 'urgent', units: 5, date: '2024-05-24', status: 'fulfilled' },
 ];
